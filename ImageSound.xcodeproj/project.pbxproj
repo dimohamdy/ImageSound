@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DEA0F2E194F18EB00C435B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEA0F2D194F18EB00C435B0 /* Foundation.framework */; };
+		3DEA0F30194F18EB00C435B0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEA0F2F194F18EB00C435B0 /* CoreGraphics.framework */; };
+		3DEA0F32194F18EB00C435B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEA0F31194F18EB00C435B0 /* UIKit.framework */; };
+		3DEA0F38194F18EB00C435B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3DEA0F36194F18EB00C435B0 /* InfoPlist.strings */; };
+		3DEA0F3A194F18EB00C435B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DEA0F39194F18EB00C435B0 /* main.m */; };
+		3DEA0F3E194F18EB00C435B0 /* DHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DEA0F3D194F18EB00C435B0 /* DHAppDelegate.m */; };
+		3DEA0F41194F18EB00C435B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DEA0F3F194F18EB00C435B0 /* Main.storyboard */; };
+		3DEA0F44194F18EB00C435B0 /* DHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DEA0F43194F18EB00C435B0 /* DHViewController.m */; };
+		3DEA0F46194F18EB00C435B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DEA0F45194F18EB00C435B0 /* Images.xcassets */; };
+		3DEA0F4D194F18EB00C435B0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEA0F4C194F18EB00C435B0 /* XCTest.framework */; };
+		3DEA0F4E194F18EB00C435B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEA0F2D194F18EB00C435B0 /* Foundation.framework */; };
+		3DEA0F4F194F18EB00C435B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEA0F31194F18EB00C435B0 /* UIKit.framework */; };
+		3DEA0F57194F18EB00C435B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3DEA0F55194F18EB00C435B0 /* InfoPlist.strings */; };
+		3DEA0F59194F18EB00C435B0 /* ImageSoundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DEA0F58194F18EB00C435B0 /* ImageSoundTests.m */; };
+		3DEA0F64194F195500C435B0 /* DHImageSound.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DEA0F63194F195500C435B0 /* DHImageSound.m */; };
+		3DEA0F68194F1E0C00C435B0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEA0F67194F1E0C00C435B0 /* AVFoundation.framework */; };
+		3DEA0F6E194F8FF800C435B0 /* beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3DEA0F6D194F8FF700C435B0 /* beep.mp3 */; };
+		3DEA0F70194F8FFE00C435B0 /* happy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3DEA0F6F194F8FFE00C435B0 /* happy.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DEA0F50194F18EB00C435B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DEA0F22194F18EB00C435B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DEA0F29194F18EB00C435B0;
+			remoteInfo = ImageSound;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DEA0F2A194F18EB00C435B0 /* ImageSound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageSound.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DEA0F2D194F18EB00C435B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3DEA0F2F194F18EB00C435B0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3DEA0F31194F18EB00C435B0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3DEA0F35194F18EB00C435B0 /* ImageSound-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageSound-Info.plist"; sourceTree = "<group>"; };
+		3DEA0F37194F18EB00C435B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3DEA0F39194F18EB00C435B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3DEA0F3B194F18EB00C435B0 /* ImageSound-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageSound-Prefix.pch"; sourceTree = "<group>"; };
+		3DEA0F3C194F18EB00C435B0 /* DHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHAppDelegate.h; sourceTree = "<group>"; };
+		3DEA0F3D194F18EB00C435B0 /* DHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHAppDelegate.m; sourceTree = "<group>"; };
+		3DEA0F40194F18EB00C435B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DEA0F42194F18EB00C435B0 /* DHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHViewController.h; sourceTree = "<group>"; };
+		3DEA0F43194F18EB00C435B0 /* DHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHViewController.m; sourceTree = "<group>"; };
+		3DEA0F45194F18EB00C435B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3DEA0F4B194F18EB00C435B0 /* ImageSoundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageSoundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DEA0F4C194F18EB00C435B0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3DEA0F54194F18EB00C435B0 /* ImageSoundTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageSoundTests-Info.plist"; sourceTree = "<group>"; };
+		3DEA0F56194F18EB00C435B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3DEA0F58194F18EB00C435B0 /* ImageSoundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageSoundTests.m; sourceTree = "<group>"; };
+		3DEA0F62194F195500C435B0 /* DHImageSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHImageSound.h; sourceTree = "<group>"; };
+		3DEA0F63194F195500C435B0 /* DHImageSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHImageSound.m; sourceTree = "<group>"; };
+		3DEA0F67194F1E0C00C435B0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3DEA0F6D194F8FF700C435B0 /* beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep.mp3; sourceTree = "<group>"; };
+		3DEA0F6F194F8FFE00C435B0 /* happy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = happy.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DEA0F27194F18EB00C435B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DEA0F68194F1E0C00C435B0 /* AVFoundation.framework in Frameworks */,
+				3DEA0F30194F18EB00C435B0 /* CoreGraphics.framework in Frameworks */,
+				3DEA0F32194F18EB00C435B0 /* UIKit.framework in Frameworks */,
+				3DEA0F2E194F18EB00C435B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DEA0F48194F18EB00C435B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DEA0F4D194F18EB00C435B0 /* XCTest.framework in Frameworks */,
+				3DEA0F4F194F18EB00C435B0 /* UIKit.framework in Frameworks */,
+				3DEA0F4E194F18EB00C435B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DEA0F21194F18EB00C435B0 = {
+			isa = PBXGroup;
+			children = (
+				3DEA0F33194F18EB00C435B0 /* ImageSound */,
+				3DEA0F52194F18EB00C435B0 /* ImageSoundTests */,
+				3DEA0F2C194F18EB00C435B0 /* Frameworks */,
+				3DEA0F2B194F18EB00C435B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DEA0F2B194F18EB00C435B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DEA0F2A194F18EB00C435B0 /* ImageSound.app */,
+				3DEA0F4B194F18EB00C435B0 /* ImageSoundTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DEA0F2C194F18EB00C435B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DEA0F67194F1E0C00C435B0 /* AVFoundation.framework */,
+				3DEA0F2D194F18EB00C435B0 /* Foundation.framework */,
+				3DEA0F2F194F18EB00C435B0 /* CoreGraphics.framework */,
+				3DEA0F31194F18EB00C435B0 /* UIKit.framework */,
+				3DEA0F4C194F18EB00C435B0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DEA0F33194F18EB00C435B0 /* ImageSound */ = {
+			isa = PBXGroup;
+			children = (
+				3DEA0F71194F920F00C435B0 /* ImageSound */,
+				3DEA0F3C194F18EB00C435B0 /* DHAppDelegate.h */,
+				3DEA0F3D194F18EB00C435B0 /* DHAppDelegate.m */,
+				3DEA0F3F194F18EB00C435B0 /* Main.storyboard */,
+				3DEA0F42194F18EB00C435B0 /* DHViewController.h */,
+				3DEA0F43194F18EB00C435B0 /* DHViewController.m */,
+				3DEA0F45194F18EB00C435B0 /* Images.xcassets */,
+				3DEA0F34194F18EB00C435B0 /* Supporting Files */,
+			);
+			path = ImageSound;
+			sourceTree = "<group>";
+		};
+		3DEA0F34194F18EB00C435B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DEA0F6F194F8FFE00C435B0 /* happy.jpg */,
+				3DEA0F6D194F8FF700C435B0 /* beep.mp3 */,
+				3DEA0F35194F18EB00C435B0 /* ImageSound-Info.plist */,
+				3DEA0F36194F18EB00C435B0 /* InfoPlist.strings */,
+				3DEA0F39194F18EB00C435B0 /* main.m */,
+				3DEA0F3B194F18EB00C435B0 /* ImageSound-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DEA0F52194F18EB00C435B0 /* ImageSoundTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DEA0F58194F18EB00C435B0 /* ImageSoundTests.m */,
+				3DEA0F53194F18EB00C435B0 /* Supporting Files */,
+			);
+			path = ImageSoundTests;
+			sourceTree = "<group>";
+		};
+		3DEA0F53194F18EB00C435B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DEA0F54194F18EB00C435B0 /* ImageSoundTests-Info.plist */,
+				3DEA0F55194F18EB00C435B0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DEA0F71194F920F00C435B0 /* ImageSound */ = {
+			isa = PBXGroup;
+			children = (
+				3DEA0F62194F195500C435B0 /* DHImageSound.h */,
+				3DEA0F63194F195500C435B0 /* DHImageSound.m */,
+			);
+			name = ImageSound;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DEA0F29194F18EB00C435B0 /* ImageSound */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DEA0F5C194F18EB00C435B0 /* Build configuration list for PBXNativeTarget "ImageSound" */;
+			buildPhases = (
+				3DEA0F26194F18EB00C435B0 /* Sources */,
+				3DEA0F27194F18EB00C435B0 /* Frameworks */,
+				3DEA0F28194F18EB00C435B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageSound;
+			productName = ImageSound;
+			productReference = 3DEA0F2A194F18EB00C435B0 /* ImageSound.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DEA0F4A194F18EB00C435B0 /* ImageSoundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DEA0F5F194F18EB00C435B0 /* Build configuration list for PBXNativeTarget "ImageSoundTests" */;
+			buildPhases = (
+				3DEA0F47194F18EB00C435B0 /* Sources */,
+				3DEA0F48194F18EB00C435B0 /* Frameworks */,
+				3DEA0F49194F18EB00C435B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DEA0F51194F18EB00C435B0 /* PBXTargetDependency */,
+			);
+			name = ImageSoundTests;
+			productName = ImageSoundTests;
+			productReference = 3DEA0F4B194F18EB00C435B0 /* ImageSoundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DEA0F22194F18EB00C435B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DH;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = AhmedHamdy;
+				TargetAttributes = {
+					3DEA0F4A194F18EB00C435B0 = {
+						TestTargetID = 3DEA0F29194F18EB00C435B0;
+					};
+				};
+			};
+			buildConfigurationList = 3DEA0F25194F18EB00C435B0 /* Build configuration list for PBXProject "ImageSound" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DEA0F21194F18EB00C435B0;
+			productRefGroup = 3DEA0F2B194F18EB00C435B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DEA0F29194F18EB00C435B0 /* ImageSound */,
+				3DEA0F4A194F18EB00C435B0 /* ImageSoundTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DEA0F28194F18EB00C435B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DEA0F6E194F8FF800C435B0 /* beep.mp3 in Resources */,
+				3DEA0F46194F18EB00C435B0 /* Images.xcassets in Resources */,
+				3DEA0F38194F18EB00C435B0 /* InfoPlist.strings in Resources */,
+				3DEA0F41194F18EB00C435B0 /* Main.storyboard in Resources */,
+				3DEA0F70194F8FFE00C435B0 /* happy.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DEA0F49194F18EB00C435B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DEA0F57194F18EB00C435B0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DEA0F26194F18EB00C435B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DEA0F3E194F18EB00C435B0 /* DHAppDelegate.m in Sources */,
+				3DEA0F64194F195500C435B0 /* DHImageSound.m in Sources */,
+				3DEA0F44194F18EB00C435B0 /* DHViewController.m in Sources */,
+				3DEA0F3A194F18EB00C435B0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DEA0F47194F18EB00C435B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DEA0F59194F18EB00C435B0 /* ImageSoundTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DEA0F51194F18EB00C435B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DEA0F29194F18EB00C435B0 /* ImageSound */;
+			targetProxy = 3DEA0F50194F18EB00C435B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DEA0F36194F18EB00C435B0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DEA0F37194F18EB00C435B0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3DEA0F3F194F18EB00C435B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DEA0F40194F18EB00C435B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DEA0F55194F18EB00C435B0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DEA0F56194F18EB00C435B0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DEA0F5A194F18EB00C435B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3DEA0F5B194F18EB00C435B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DEA0F5D194F18EB00C435B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageSound/ImageSound-Prefix.pch";
+				INFOPLIST_FILE = "ImageSound/ImageSound-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3DEA0F5E194F18EB00C435B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageSound/ImageSound-Prefix.pch";
+				INFOPLIST_FILE = "ImageSound/ImageSound-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3DEA0F60194F18EB00C435B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ImageSound.app/ImageSound";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageSound/ImageSound-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ImageSoundTests/ImageSoundTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3DEA0F61194F18EB00C435B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ImageSound.app/ImageSound";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageSound/ImageSound-Prefix.pch";
+				INFOPLIST_FILE = "ImageSoundTests/ImageSoundTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DEA0F25194F18EB00C435B0 /* Build configuration list for PBXProject "ImageSound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DEA0F5A194F18EB00C435B0 /* Debug */,
+				3DEA0F5B194F18EB00C435B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DEA0F5C194F18EB00C435B0 /* Build configuration list for PBXNativeTarget "ImageSound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DEA0F5D194F18EB00C435B0 /* Debug */,
+				3DEA0F5E194F18EB00C435B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3DEA0F5F194F18EB00C435B0 /* Build configuration list for PBXNativeTarget "ImageSoundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DEA0F60194F18EB00C435B0 /* Debug */,
+				3DEA0F61194F18EB00C435B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DEA0F22194F18EB00C435B0 /* Project object */;
+}
